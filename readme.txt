@@ -36,7 +36,7 @@ Plugin Page: [https://gourl.io/bitcoin-payments-paid-memberships-pro.html](https
 
 Twitter: [https://twitter.com/CryptocoinAPI](https://twitter.com/CryptocoinAPI)
 
-Github: [https://github.com/cryptoapi/Bitcoin-Payments-PaidMembershipsPro](https://github.com/cryptoapi/Bitcoin-Payments-PaidMembershipsPro)
+Github: [https://github.com/cryptoapi/Bitcoin-Gateway-Paid-Memberships-Pro](https://github.com/cryptoapi/Bitcoin-Gateway-Paid-Memberships-Pro)
 
 
 
@@ -93,4 +93,3 @@ Read here:  [https://gourl.io/bitcoin-payments-paid-memberships-pro.html#notes](
 Initial Release
     
   
- 
