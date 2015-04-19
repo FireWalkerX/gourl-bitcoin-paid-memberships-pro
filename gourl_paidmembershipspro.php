@@ -363,7 +363,7 @@ if (!function_exists('gourl_pmp_gateway_load'))
 					if (!empty($morder) && $morder->gateway == "gourl") $pmpro_invoice = $morder;
 				}
 					
-				if (!empty($pmpro_invoice) && $pmpro_invoice->gateway == "gourl")
+				if (!empty($pmpro_invoice) && $pmpro_invoice->gateway == "gourl" && isset($pmpro_invoice->total) && $pmpro_invoice->total > 0)
 				{
 					$levelName = $wpdb->get_var("SELECT name FROM $wpdb->pmpro_membership_levels WHERE id = '" . $pmpro_invoice->membership_id . "' LIMIT 1");
 		
@@ -629,7 +629,7 @@ if (!function_exists('gourl_pmp_gateway_load'))
 		
 		
 		/*
-		 *  2. Instant Payment Notification Function - pluginname."_gourlcallback"
+		*  2. Instant Payment Notification Function - pluginname."_gourlcallback"    
 		*
 		*  This function will appear every time by GoUrl Bitcoin Gateway when a new payment from any user is received successfully.
 		*  Function gets user_ID - user who made payment, current order_ID (the same value as you provided to bitcoin payment gateway),
